@@ -1,0 +1,8 @@
+check_name,issue_count,result
+Invalid Customers,2,FAIL
+Invalid Products,0,PASS
+Duplicate Orders,0,PASS
+Invalid Quantities,2,FAIL
+Invalid Statuses,1,FAIL
+Unknown Customer Orders,1,FAIL
+Unknown Product Orders,0,PASS

@@ -1,0 +1,47 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Spark temporary output
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment files if added later
+!.env.example
+
+# Spark checksum and temporary files
+*.crc
+._*
+.part-*

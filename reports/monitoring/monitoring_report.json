@@ -1,0 +1,18 @@
+{
+    "metrics": {
+        "pipeline_name": "Big_Data_Processing",
+        "execution_date": "2026-11-17 06:54:33",
+        "records_processed": 15,
+        "records_validated": 10,
+        "records_rejected": 5,
+        "execution_time_seconds": 12.5,
+        "data_quality_failures": 4,
+        "schema_drift_detected": true
+    },
+    "alerts": [
+        "WARNING: Invalid records detected",
+        "CRITICAL: Data quality checks failed",
+        "CRITICAL: Schema drift detected"
+    ],
+    "pipeline_status": "FAILED"
+}

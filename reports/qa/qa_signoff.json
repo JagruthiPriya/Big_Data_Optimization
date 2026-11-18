@@ -1,0 +1,28 @@
+{
+    "project": "Big_Data_Processing",
+    "signoff_date": "2026-11-17 06:59:08",
+    "total_checks": 14,
+    "passed_checks": 14,
+    "failed_checks": 0,
+    "qa_recommendation": "PASS",
+    "simulated_pipeline_health": "FAILED",
+    "release_recommendation": "HOLD - simulated pipeline has critical alerts",
+    "checks": {
+        "output_exists_customers": true,
+        "output_exists_products": true,
+        "output_exists_orders": true,
+        "output_exists_clean_sales": true,
+        "output_exists_partitioned_sales": true,
+        "output_exists_quality_report": true,
+        "output_exists_monitoring_report.json": true,
+        "output_exists_schema_report.json": true,
+        "output_exists_index.html": true,
+        "unit_and_integration_tests": true,
+        "valid_schema_record_passed": true,
+        "schema_drift_was_detected": true,
+        "data_quality_alert_generated": true,
+        "schema_drift_alert_generated": true
+    },
+    "test_output": "..............                                                           [100%]\n14 passed in 0.16s",
+    "note": "Monitoring metrics are simulated. Critical alerts are deliberately triggered to test alert detection."
+}
